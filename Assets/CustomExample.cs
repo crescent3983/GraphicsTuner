@@ -6,8 +6,6 @@ public class CustomExample : MonoBehaviour {
         var tuner = GraphicsTuner.Instance;
         if (tuner == null) return;
 
-        tuner.BasicSetting.SetActive(false);
-
         var setting = tuner.CreateCustomSettings("Custom");
         setting.CreateToggle(
             "HDR",

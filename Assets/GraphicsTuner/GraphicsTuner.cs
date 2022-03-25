@@ -53,7 +53,6 @@ namespace Analysis.GraphicsTuner {
 			if(Instance == null) {
 				var prefabPath = AssetDatabase.GUIDToAssetPath(AssetDatabase.FindAssets("\"Graphics Tuner\" t:prefab")[0]);
 				var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
-				Debug.Log(prefab);
 				PrefabUtility.InstantiatePrefab(prefab);
 			}
 		}
