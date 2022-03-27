@@ -6,13 +6,13 @@
 
 1. 新增到場景
 
-    ![Create](https://drive.google.com/uc?export=view&id=1-RWssutdqQGh07oAmxPpye9QzmPho7hI)
+    ![Create](./readme_assets/create_instance.png)
 
-    ![Anchor](https://drive.google.com/uc?export=view&id=1-UlA229H6S5AUxtuUQTsvsj0CV3MvtBa)
+    ![Anchor](./readme_assets/switch_anchor.png)
 
 2. 執行遊戲
 
-    ![Run](https://drive.google.com/uc?export=view&id=1-948SZMqx7qUB6GhPghFAb-IDD7WH1xl)
+    ![Run](./readme_assets/graphics_tuner.png)
 
 ## 客製化
 
@@ -55,7 +55,7 @@ tuner.QualitySetting.SetAnchor(ComponentAnchor.Left);
     UIConsoleSlider CreateSlider(string title, float[] values, Func<float> getter, Action<float> setter, Action<float> onChange = null);
     ```
 
-    ![Slider](https://drive.google.com/uc?export=view&id=1-YOO3ARN8NoR1iEgNpYLdtxG25Y_ZvlR)
+    ![Slider](./readme_assets/slider.png)
 
 + UIConsoleDropdown
 
@@ -64,7 +64,7 @@ tuner.QualitySetting.SetAnchor(ComponentAnchor.Left);
     UIConsoleDropdown CreateDropdown(string title, Type type, Func<int> getter, Action<int> setter, Action<int> onChange = null);
     ```
 
-    ![Dropdown](https://drive.google.com/uc?export=view&id=1-_NNuh-oPGgdcZLfaaCpfLt1NRUuyHBh)
+    ![Dropdown](./readme_assets/dropdown.png)
 
 + UIConsoleToggle
 
@@ -72,7 +72,7 @@ tuner.QualitySetting.SetAnchor(ComponentAnchor.Left);
     UIConsoleToggle CreateToggle(string title, Func<bool> getter, Action<bool> setter, Action<bool> onChange = null);
     ```
 
-    ![Toggle](https://drive.google.com/uc?export=view&id=1-b4Nl9Xh_6mUXsJ1SjsQ6YDuQ20smzJ2)
+    ![Toggle](./readme_assets/toggle.png)
 
 + UIConsoleLabel
 
@@ -80,4 +80,4 @@ tuner.QualitySetting.SetAnchor(ComponentAnchor.Left);
     UIConsoleLabel CreateLabel(string title, out Action<string> setter);
     ```
 
-    ![Label](https://drive.google.com/uc?export=view&id=1-gbkinp6k4Bd_6d4Q9pJ84CQiGMjfxFI)
+    ![Label](./readme_assets/label.png)
