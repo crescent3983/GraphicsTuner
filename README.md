@@ -4,15 +4,26 @@
 
 Quick tuning graphics settings of Unity.
 
+## Compatibility
+
+Only tested with below versions but may be compatible with other versions.
+
+| Version
+|------
+| Unity 2018.4.x
+| Unity 2020.3.x
+
 ## Usage
 
-1. Add to Scene
+1. Use whole project or copy `Assets/GraphicsTuner` to your project
+
+2. Add to Scene
 
     ![Create](./readme_assets/create_instance.png))
 
     ![Anchor](./readme_assets/switch_anchor.png)
 
-2. Play
+3. Play
 
     ![Run](./readme_assets/graphics_tuner.png)
 

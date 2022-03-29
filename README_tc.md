@@ -2,15 +2,26 @@
 
 快速調用Unity圖形參數，測試遊戲性能。
 
+## 相容性
+
+目前僅測試過以下版本，但也可能兼容其他版本
+
+| 版本
+|------
+| Unity 2018.4.x
+| Unity 2020.3.x
+
 ## 使用方法
 
-1. 新增到場景
+1. 使用本專案或複製`Assets/GraphicsTuner`到你的專案
+
+2. 新增到場景
 
     ![Create](./readme_assets/create_instance.png)
 
     ![Anchor](./readme_assets/switch_anchor.png)
 
-2. 執行遊戲
+3. 執行遊戲
 
     ![Run](./readme_assets/graphics_tuner.png)
 
